@@ -1,4 +1,4 @@
-// content hidden
+//all content hidden
 
 //lib
 const express = require('express');
@@ -9,6 +9,7 @@ app.get('/', function (req,res) {
   res.send("To do api root")
 });
 
+//server only
 app.listen(PORT ,function () {
   console.log("Am on prt" + PORT);
 })
